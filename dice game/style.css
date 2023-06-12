@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #393e46;
+    font-family: 'Lobster',cursive;
+}
+
+.Player1,.Player2,h1{
+    color: #4bc39c;
+}
+
+h1{
+    margin-top: 70px;
+    font-size:100px;
+    text-align: center;
+}
+
+.Player1,.Player2{
+    margin-top: 10px;
+    margin-left: 80px;
+    font-size: 35px;
+}
+
+.dice{
+    margin-top: 25px;
+    margin-left: 325px;
+    display: inline-block;
+}
+
+.btn1{
+    margin-left: 700px;
+    padding: 10px;
+    margin-top: 20px;
+    font-family:cursive;
+    background: red;
+    color: white;
+    border-radius: 7px;
+    cursor: pointer;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.btn2{
+    margin-left: 706px;
+    padding: 10px;
+    margin-top: 20px;
+    font-family:cursive;
+    background: red;
+    color: white;
+    border-radius: 7px;
+    cursor: pointer;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.btn1:hover,.btn2:hover{
+    background: rgb(156, 51, 51);
+    
+}
